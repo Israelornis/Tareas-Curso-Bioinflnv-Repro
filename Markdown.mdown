@@ -5,7 +5,7 @@
 ... ~/tutorial% ls
 ... raw/  samples/  stacks/
 
-##### **2.** We will assume that you have placed the raw sequencing data into the raw/ directory. If you are using the raw files output by the BUSTARD part of the pipeline your data will look like this:
+##### 2. We will assume that you have placed the raw sequencing data into the raw/ directory. If you are using the raw files output by the BUSTARD part of the pipeline your data will look like this:
 
 ~/tutorial/raw% ls
 s_1_1_0001_qseq.txt  s_1_1_0025_qseq.txt  s_1_1_0049_qseq.txt  s_1_1_0073_qseq.txt  s_1_1_0097_qseq.txt
