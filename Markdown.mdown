@@ -3,7 +3,7 @@
 
 ... ~/tutorial% mkdir raw samples stacks
 ... ~/tutorial% ls
-###### raw/  samples/  stacks/
+... raw/  samples/  stacks/
 
 ##### **2.** We will assume that you have placed the raw sequencing data into the raw/ directory. If you are using the raw files output by the BUSTARD part of the pipeline your data will look like this:
 
@@ -38,4 +38,17 @@ s_1_1_0024_qseq.txt  s_1_1_0048_qseq.txt  s_1_1_0072_qseq.txt  s_1_1_0096_qseq.t
 ~/tutorial/raw% ls
 s_1_sequence.txt
 
-The next step is to create a file containing our five barcodes. Using a convenient editor, place the barcodes alone in a file, one per line.
+##### The next step is to create a file containing our five barcodes. Using a convenient editor, place the barcodes alone in a file, one per line.
+
+~/tutorial% vi barcodes
+~/tutorial% more barcodes 
+CGATA
+GAAGC
+TGACC
+AACCC
+ACTGC
+
+##### After the last two steps, our working directory should look like this:
+
+~/tutorial% ls
+barcodes  raw/  samples/  stacks/
